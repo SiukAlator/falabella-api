@@ -1,0 +1,12 @@
+{
+    "name": "falabella-api",
+    "main": "index.js",
+    "dependencies": {
+        "async": "=0.2.8",
+        "body-parser": "1.19.0",
+        "express": "^4.17.1",
+        "fs": "0.0.1-security",
+        "node-env-file": "0.1.8",
+        "nodemon": "^2.0.4"
+    }
+}
