@@ -34,7 +34,7 @@
  **Consierar que para el presente ejemplo, se estableció un token estático para las consultas. Este no debe modificarse para que funcione** <br/>
  **La data enviada será almacenada en la carpeta data, dentro de un archivo de texto llamado data.txt** <br/>
 <br />
-npm
+Considerar los siguientes campos
 ```json
   "url": "http://localhost:4000/api/evaluate",
   "method": "POST",
