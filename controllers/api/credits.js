@@ -12,7 +12,7 @@ exports.evaluate = function (req, res, falabella) {
             }
         ],
         function (err, status) {
-            res.send({ "code": "500", "message": "Internal Error", "str": err });
+            res.send(falabella.constants.INTERNAL_ERROR);
         }
     );
 
@@ -37,10 +37,6 @@ exports.evaluate = function (req, res, falabella) {
                 result = falabella.constants.OK;
             return cb(null, result);
         });
-    
-        // let result = false;
-
-        // return cb(null, result);
         
     }
 }

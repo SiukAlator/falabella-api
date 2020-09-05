@@ -26,7 +26,7 @@
 1. Descargar repositorio y engresar al repositorio a través del terminal. <br/>
 2. Verificar que el puerto 4000 se encuentre disponible. <br/>
 3. Ejecutar "npm install". Node instalará todos los componentes necesarios.<br/>
-4. Ejecutar "node index.js" Node levantará el servicio y quedará ejecutandose.<br/>
+4. Ejecutar "npm start" Node levantará el servicio y quedará ejecutandose.<br/>
 
 
 
@@ -45,12 +45,12 @@ Considerar los siguientes campos
     "Cookie": "i18next=dev"
   },
   "data": {
-    "rut": "12323",
-    "email": "3242322",
-    "x-user-browser": "aaa",
-    "phone": "eqw213",
-    "renta": "123123",
-    "x-user-os": "wqeqwe"
+    "rut": "11.111.111-1",
+    "email": "correo@correo.cl",
+    "x-user-browser": "Mozilla - 5.0 (Macintosh)",
+    "phone": "98765432",
+    "renta": "123",
+    "x-user-os": "Intel Mac OS X 10.15"
   }
 ```
 
